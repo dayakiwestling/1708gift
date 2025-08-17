@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="styles.css" />-->
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="styles.js" defer></script>
+    <title>Welcome to our home</title>
+  </head>
+  <body>
+    <div class="fade-in">
+      <header>
+        <h1>A & D <span class="letra-chica">as promised...</span></h1>
+      </header>
+      <br />
+      <div class="div-principal">
+        <div class="foto-principal">
+          <h2>OUR NEW HOME</h2>
+          <p>The start of a new chapter in our lifes.</p>
+        </div>
+        <div class="detalles">
+          <h3>Detalles del hogar.</h3>
+          <p class="primer-parrafo">
+            Se trata de una elegante residencia de tres pisos, ubicada en
+            Manhattan, con un estilo arquitectónico clásico que combina simetría
+            y detalles ornamentales. Cada piso ocupa aproximadamente 203 metros
+            cuadrados, ofreciendo un espacio amplio y bien distribuido -unos 608
+            metros cuadrados en total-.
+          </p>
+          <button class="puntero">POINT HERE TO SEE IT</button>
+          <!--<p class="segundo-parrafo">
+          La fachada está pintada en un tono beige claro -en la foto parece
+          blanco, I know- y se distingue por sus grandes ventanales de tipo
+          mirador. En la segunda planta hay un balcón correspondiente a la
+          habitación principal ubicado sobre el pórtico, ubicados en el patio
+          trasero, y en el tercer piso hay dos balcones pequeños que acompañan
+          al salón. En total, cuenta con: dos salas de estar, dos comedores,
+          tres habitaciones, tres walk-in closet y cinco baños, además de dos
+          salones, una mini sala, un estudio, y una cocina con barra e isla
+          incluidos.
+        </p>-->
+        </div>
+      </div>
+      <br />
+      <div class="div-secundario reveal">
+        <div class="informacion">
+          <p class="segundo-parrafo">
+            La fachada está pintada en un tono beige claro -en la foto parece
+            blanco, I know- y se distingue por sus grandes ventanales de tipo
+            mirador. En la segunda planta hay un balcón correspondiente a la
+            habitación principal ubicado sobre el pórtico, y en el tercer piso
+            hay dos balcones pequeños que acompañan al salón. En total, cuenta
+            con: dos salas de estar, dos comedores, tres habitaciones, tres
+            walk-in closet y cinco baños, además de dos salones, una mini sala,
+            un estudio, y una cocina con barra e isla incluidos. Los planos de
+            primer a tercer piso, de izquierda a derecha:
+          </p>
+        </div>
+        <div class="planos">
+          <div class="img-wrap"><img src="pisouno.JPG" /></div>
+          <div class="img-wrap"><img src="pisodos.JPG" /></div>
+          <div class="img-wrap"><img src="pisotres.JPG" /></div>
+        </div>
+      </div>
+      <br />
+      <div class="div-terciario reveal">
+        <div class="informacion">
+          <div class="img-wrap igual-planos"><img src="home_frente.jpg" /></div>
+        </div>
+        <div class="planos">
+          <div class="img-wrap"><img src="galería.JPG" /></div>
+          <div class="img-wrap"><img src="map.JPG" /></div>
+        </div>
+      </div>
+      <br />
+      <div class="div-cuatro reveal">
+        <div class="cositos">
+          <button onclick="descDesplegable(this)" class="pared">
+            MATERIALES DE PARED
+          </button>
+          <div class="info" style="display: none">
+            <p>- Madera.</p>
+            <p>- Hormigón.</p>
+            <p>- Yeso.</p>
+            <p>- Ladrillo.</p>
+            <img src="pared.PNG" alt="Paredes" class="foto-botones" />
+          </div>
+        </div>
+        <div class="cositos">
+          <button onclick="descDesplegable(this)" class="suelo">
+            MATERIALES DE SUELO
+          </button>
+          <div class="info" style="display: none">
+            <p>- Madera.</p>
+            <p>- Mármol.</p>
+            <p>- Cerámica.</p>
+            <p>- Granito.</p>
+            <img src="suelo.PNG" alt="Suelos" class="foto-botones" />
+          </div>
+        </div>
+        <div class="cositos">
+          <button onclick="descDesplegable(this)" class="colores">
+            PALETA DE COLORES
+          </button>
+          <div class="info" style="display: none">
+            <p>- Marrón.</p>
+            <p>- Blanco.</p>
+            <p>- Verde.</p>
+            <p>- Beige.</p>
+            <img src="paleta.PNG" alt="Colores" class="foto-botones" />
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <footer class="footer reveal">
+        <div class="footer-izquierdo">
+          <p>WITH LOVE, HBD</p>
+        </div>
+        <div class="footer-derecho"></div>
+      </footer>
+    </div>
+  </body>
+</html>
